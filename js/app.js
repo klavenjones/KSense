@@ -9,7 +9,7 @@ const options = {
   headers: requestHeaders
 };
 //Adding table headers to our table
-userTable.innerHTML = `<thead><tr>
+userTable.innerHTML = `<tr>
 <th>ID</th>
 <th>Name</th>
 <th>Email</th>
@@ -69,6 +69,11 @@ const getPosts = async (id) => {
       <p>Author: <span> User ${post.userId} </span> </p>`;
       postList.appendChild(li);
     });
+  } else {
+    const div = document.createElement("div");
+    const message = `Something went wrong with your request (${response.status})`;
+    div.innerHTML = message;
+    document.body.appendChild(div);
   }
 };
 
