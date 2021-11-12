@@ -1,7 +1,7 @@
 # Users and Posts Code Challenge
 
 
-Here is the [Live Demo](http://ksense.surge.sh/)
+Here is the [live demo](http://ksense.surge.sh/) of the challenge.
 
 
 
