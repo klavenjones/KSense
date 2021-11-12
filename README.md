@@ -22,7 +22,7 @@ I decided to grab the reference to the parent element and then append the childr
 
 ## Challenge
 
-Whenever I clicked on a user from the table, it would make a request to the Post AP I and append their posts dynamically to the end of the list. 
+Whenever I clicked on a user from the table, it would make a request to the Post API and append their posts dynamically to the end of the list. 
 
 This approach was fine when you clicked on one user. But If I decided to click on other users, it would continue to append their posts to the end of the list. 
 
